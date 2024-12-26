@@ -4,6 +4,8 @@ on:
     #push:
     #    paths:
     #        - '明文源码.js'
+    schedule:
+      - cron: "30 4 */3 * *" # every day
     workflow_dispatch:
 
 jobs:
